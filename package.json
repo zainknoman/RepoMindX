@@ -1,1 +1,25 @@
-{"name":"repomindx","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"vite","build":"vite build","preview":"vite preview","test":"vitest run","e2e":"playwright test"},"dependencies":{"@vitejs/plugin-react":"latest","jszip":"latest","marked":"latest","react":"latest","react-dom":"latest","vite":"latest"},"devDependencies":{"@playwright/test":"latest","vitest":"latest"}}
+{
+  "name": "repomindx",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "5.0.4",
+    "jszip": "3.10.1",
+    "marked": "16.3.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite": "7.1.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.55.0",
+    "vitest": "4.0.18"
+  }
+}
