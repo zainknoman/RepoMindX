@@ -223,3 +223,26 @@ See:
 - [docs/ROADMAP.md](docs/ROADMAP.md)
 
 for the implementation plan and acceptance criteria.
+
+
+## Live Test / GitHub Pages
+
+RepoMindX is configured for GitHub Pages deployment from `main`. After the Pages workflow completes, use the repository's **Settings → Pages** URL. The application also includes a **Load Demo** mode so the full workspace can be tested without granting local-folder access.
+
+## Current Delivery
+
+The current `main` branch contains the combined Phase 1–5 baseline plus the production-hardening/release work added afterward:
+
+- browser-safe demo repository
+- stronger reference indexing
+- unresolved-import detection
+- dependency-cycle detection
+- Context copy/download
+- Markdown copy/download
+- Vite production configuration
+- GitHub Pages deployment workflow
+- CI workflow without lockfile/cache assumptions
+
+### Important limitation
+
+Repository intelligence is currently heuristic and browser-local. It does not claim full language-server-grade semantic analysis, and security findings are signals rather than confirmed vulnerabilities.
